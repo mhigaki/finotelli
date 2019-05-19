@@ -19,8 +19,8 @@
 }</style>
   </head>
   <body>
-    <header>
-      <div class="top">
+    <header data-pg-collapsed>
+      <div class="top" data-pg-collapsed>
         <nav class="navbar navbar-expand-md d-none d-lg-block pg-higatech-nav10">
           <div class="container">
             <div class="collapse navbar-collapse" id="collapsibleNavbar10">
@@ -50,10 +50,10 @@
           </div>
         </nav>
       </div>
-      <div class="main" id="navbar">
+      <div class="main" id="navbar" data-pg-collapsed>
         <div class="container">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand">
               <img class="img-fluid" src="images/logo.png" width="160px"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbars102">
@@ -62,7 +62,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbars102">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">HOME</a>
+                  <a class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about">EMPRESA</a>
@@ -88,7 +88,7 @@
         </div>
       </div>
     </header>
-    <section id="slider">
+    <section id="slider" data-pg-collapsed>
       <div class="pg-higatech-slider3">
         <div id="demo2" class="carousel slide carousel-fade" data-ride="carousel">
           <ul class="carousel-indicators h-100 flex-column d-flex justify-content-center align-items-center align-content-center">
@@ -167,14 +167,15 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="about">
+    <section id="about" data-pg-collapsed>
       <div class="pg-higatech-content20">
         <div class="container">
           <div class="content row">
             <div class="col-md-6">
               <div class="left-box">
                 <h2>QUEM SOMOS</h2>
-                <p>A <b>Finotelli Express®</b> é uma empresa de entregas rápidas que visa atender as necessidades de nossos clientes de uma forma rápida com muita segurança e responsabilidade. Trabalhamos com profissionais selecionados, de confiança e todos devidamente regularizados dentro da lei n° 12.009.</p>
+                <p>A <b>Finotelli Express®</b> é uma empresa de entregas rápidas que visa atender as necessidades de nossos clientes de uma forma rápida com muita segurança e responsabilidade. Trabalhamos com profissionais selecionados, de confiança e
+                todos devidamente regularizados dentro da lei n° 12.009.</p>
                 <p>Ao longo de nossa história, realizamos mais de 2 mil coletas e entregas e nos tornamos referência no segmento de serviços de moto frete, adquirindo um knowhow e excelência que conquistou as empresas .</p>
                 <a href="about.html">
                   <button name="SAIBA MAIS" class="btn btn-light" type="button">SAIBA MAIS</button>
@@ -203,7 +204,7 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="empresas">
+    <section id="empresas" data-pg-collapsed>
       <div class="pg-higatech-title1">
         <h3>PLANOS PARA SUA EMPRESA</h3>
         <span> </span>
@@ -246,7 +247,8 @@ background-image: url('images/slider3.jpg');">
                 <div id="menu12" class="container tab-pane fade">
                   <br>
                   <h3>Eventual | Esporádica</h3>
-                  <p>São solicitações sem previsão de chamada e sem roteiro fixo. Os serviços são cobrados por ponto e os preços variam de acordo com a distância percorrida e quantidade de entregas. O cliente recebe descontos progressivos conforme o aproveitamento de entregas em uma mesma região.</p>
+                  <p>São solicitações sem previsão de chamada e sem roteiro fixo. Os serviços são cobrados por ponto e os preços variam de acordo com a distância percorrida e quantidade de entregas. O cliente recebe descontos progressivos conforme o
+                  aproveitamento de entregas em uma mesma região.</p>
                 </div>
                 <div class="container tab-pane fade" id="menu22">
                   <br/>
@@ -269,7 +271,7 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="service">
+    <section id="service" data-pg-collapsed>
       <div class="pg-higatech-service4">
         <div class="pg-higatech-title1">
           <h3>NOSSOS SERVIÇOS</h3>
@@ -336,7 +338,7 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="partner">
+    <section id="partner" data-pg-collapsed>
       <div class="pg-higatech-partner5">
         <div class="pg-higatech-title1">
           <h3>NOSSOS CLIENTES</h3>
@@ -417,7 +419,7 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="contact">
+    <section id="contact" data-pg-collapsed>
       <div class="pg-higatech-contact10">
         <div class="container">
           <div class="row">
@@ -497,7 +499,7 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="testimonial">
+    <section id="testimonial" data-pg-collapsed>
       <div class="pg-higatech-testimonial8">
         <div class="container">
           <div id="demo9" class="carousel slide" data-ride="carousel">
@@ -535,7 +537,7 @@ background-image: url('images/slider3.jpg');">
         </div>
       </div>
     </section>
-    <section id="footer">
+    <section id="footer" data-pg-collapsed>
       <div class="pg-higatech-footer7">
         <div class="container">
           <div class="row">
@@ -589,30 +591,32 @@ background-image: url('images/slider3.jpg');">
       </div>
     </section>
     <!-- Go To Top Link -->
-    <a href="#" class="back-to-top" id="myBtn"> <i class="fa fa-mouse-pointer" style="text-shadow: 7px 7px 10px #010101; transition: color 0.5s;"></i> </a>
-    <script>
+    <a href="#" class="back-to-top" id="myBtn" data-pg-collapsed> <i class="fa fa-mouse-pointer" style="text-shadow: 7px 7px 10px #010101; transition: color 0.5s;"></i> </a>
+    <script data-pg-collapsed>
     // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
   </script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <script type="text/javascript" src="js/form-validator.min.js"></script>
-    <script type="text/javascript" src="js/contact-form-script.js"></script>
+    <script src="assets/js/jquery.min.js" data-pg-collapsed></script>
+    <script src="assets/js/popper.js" data-pg-collapsed></script>
+    <script src="bootstrap/js/bootstrap.min.js" data-pg-collapsed></script>
+    <script src="js/script.js" data-pg-collapsed></script>
+    <script type="text/javascript" src="js/form-validator.min.js" data-pg-collapsed></script>
+    <script type="text/javascript" src="js/contact-form-script.js" data-pg-collapsed></script>
   </body>
 </html>
