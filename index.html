@@ -10,16 +10,15 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/finotelli.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/finotelli.min.css">
     <style>html {
     scroll-behavior: smooth;
 }</style>
   </head>
   <body>
-    <header>
+    <header data-pg-collapsed>
       <div class="top">
         <nav class="navbar navbar-expand-md d-none d-lg-block pg-higatech-nav10" data-pg-collapsed>
           <div class="container">
@@ -88,8 +87,8 @@
         </div>
       </div>
     </header>
-    <section id="slider">
-      <div class="pg-higatech-slider3">
+    <section id="slider" data-pg-collapsed>
+      <div class="fnt-slide">
         <div id="demo2" class="carousel slide carousel-fade" data-ride="carousel">
           <ul class="carousel-indicators h-100 flex-column d-flex justify-content-center align-items-center align-content-center">
             <li data-target="#demo2" data-slide-to="0" class="active">
@@ -166,8 +165,8 @@
         </div>
       </div>
     </section>
-    <section id="about">
-      <div class="pg-higatech-content20">
+    <section id="about" data-pg-collapsed>
+      <div class="fnt-about">
         <div class="container">
           <div class="content row">
             <div class="col-md-6">
@@ -190,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="pg-higatech-cta6">
+      <div class="fnt-cta01">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -203,13 +202,13 @@
         </div>
       </div>
     </section>
-    <section id="empresas">
-      <div class="pg-higatech-title1">
+    <section id="empresas" data-pg-collapsed>
+      <div class="fnt-plan-title">
         <h3>PLANOS PARA SUA EMPRESA</h3>
         <span> </span>
         <p>Confira abaixo os tipos de contrato de entrega rápida que a <b>Finotelli Express®</b> disponibiliza aos clientes.</p>
       </div>
-      <div class="pg-higatech-tab3">
+      <div class="fnt-plan-tab">
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
@@ -270,9 +269,9 @@
         </div>
       </div>
     </section>
-    <section id="service">
-      <div class="pg-higatech-service4">
-        <div class="pg-higatech-title1">
+    <section id="service" data-pg-collapsed>
+      <div class="fnt-service">
+        <div class="fnt-plan-title">
           <h3>NOSSOS SERVIÇOS</h3>
           <span> </span>
           <p>O objetivo principal de nossa empresa é atender com eficiência, segurança, qualidade e organização todos os serviços mencionados.</p>
@@ -337,8 +336,8 @@
         </div>
       </div>
     </section>
-    <section id="partner">
-      <div class="pg-higatech-partner5">
+    <section id="partner" data-pg-collapsed>
+      <div class="fnt-partner">
         <div class="pg-higatech-title1">
           <h3>NOSSOS CLIENTES</h3>
           <span> </span>
@@ -418,8 +417,8 @@
         </div>
       </div>
     </section>
-    <section id="contact">
-      <div class="pg-higatech-contact10">
+    <section id="contact" data-pg-collapsed>
+      <div class="fnt-contact">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-4">
@@ -498,8 +497,8 @@
         </div>
       </div>
     </section>
-    <section id="testimonial">
-      <div class="pg-higatech-testimonial8">
+    <section id="testimonial" data-pg-collapsed>
+      <div class="fnt-testemonial">
         <div class="container">
           <div id="demo9" class="carousel slide" data-ride="carousel">
             <!-- <ul class="carousel-indicators pg-1"> -->
@@ -536,8 +535,8 @@
         </div>
       </div>
     </section>
-    <section id="footer">
-      <div class="pg-higatech-footer7">
+    <section id="footer" data-pg-collapsed>
+      <div class="fnt-footer">
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-sm-12 col-md-4 col-12 col-xl-4">
@@ -590,7 +589,7 @@
       </div>
     </section>
     <!-- Go To Top Link -->
-    <a href="#" class="back-to-top" id="myBtn"> <i class="fa fa-mouse-pointer" style="text-shadow: 7px 7px 10px #010101; transition: color 0.5s;"></i> </a>
+    <a href="#" class="back-to-top" id="myBtn" data-pg-collapsed> <i class="fa fa-mouse-pointer" style="text-shadow: 7px 7px 10px #010101; transition: color 0.5s;"></i> </a>
     <script>
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {
@@ -612,9 +611,8 @@
     }
   </script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.min.js"></script>
     <script type="text/javascript" src="js/form-validator.min.js"></script>
     <script type="text/javascript" src="js/contact-form-script.js"></script>
   </body>

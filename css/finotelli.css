@@ -86,10 +86,10 @@
 }
 
 /* slider 3 */
-.pg-higatech-slider3 {
+.fnt-slide {
 }
 
-.pg-higatech-slider3 .carousel-caption {
+.fnt-slide .carousel-caption {
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -97,23 +97,23 @@
     margin: 25px;
 }
 
-.pg-higatech-slider3 .carousel-inner {
+.fnt-slide .carousel-inner {
 }
 
-.pg-higatech-slider3 .carousel-item {
+.fnt-slide .carousel-item {
     background-size: cover;
     background-position: left top;
     height: 90vh;
     background-repeat: no-repeat;
 }
 
-.pg-higatech-slider3 .carousel-indicators {
+.fnt-slide .carousel-indicators {
     left: unset;
     margin-right: 7%;
     display: flex;
 }
 
-.pg-higatech-slider3 .carousel-indicators li {
+.fnt-slide .carousel-indicators li {
     margin: 8px 0px;
     background-color: transparent;
     text-indent: 0px;
@@ -123,22 +123,22 @@
     cursor: pointer;
 }
 
-.pg-higatech-slider3 .carousel-indicators {
+.fnt-slide .carousel-indicators {
     z-index: 12;
     list-style: none;
     color: #fff;
 }
 
-.pg-higatech-slider3 .carousel-indicators .active {
+.fnt-slide .carousel-indicators .active {
     color: #ffca28;
 }
 
-.pg-higatech-slider3 .carousel-indicators .active .line {
+.fnt-slide .carousel-indicators .active .line {
     background-color: #ffca28;
     width: 23px;
 }
 
-.pg-higatech-slider3 .line {
+.fnt-slide .line {
     height: 1px;
     display: inline-block;
     background-color: #e8e8e8;
@@ -147,14 +147,14 @@
     margin-right: 7px;
 }
 
-.pg-higatech-slider3 img {
+.fnt-slide img {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.pg-higatech-slider3 .overlay {
+.fnt-slide .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -163,24 +163,24 @@
     background-color: #000;
 }
 
-.pg-higatech-slider3 .pre {
+.fnt-slide .pre {
     width: 100%;
 }
 
-.pg-higatech-slider3 .headings {
+.fnt-slide .headings {
     font-size: 27px;
     font-weight: 700;
 }
 
-.pg-higatech-slider3 .headings span {
+.fnt-slide .headings span {
     color: #ffca28;
 }
 
-.pg-higatech-slider3 .carousel-caption p {
+.fnt-slide .carousel-caption p {
     font-size: 12px;
 }
 
-.pg-higatech-slider3 .btn1 {
+.fnt-slide .btn1 {
     background-image: none;
     background-color: #fdc716;
     border-radius: 2px;
@@ -192,7 +192,7 @@
     text-transform: uppercase;
 }
 
-.pg-higatech-slider3 .btn2 {
+.fnt-slide .btn2 {
     background-color: #111;
     color: #fff;
     border: 1px solid #f0f0f0;
@@ -204,8 +204,8 @@
     display: none;
 }
 
-/*.pg-higatech-content20 */
-.pg-higatech-content20 {
+/*.fnt-about */
+.fnt-about {
     overflow: hidden;
     width: 100%;
     position: relative;
@@ -223,22 +223,22 @@
     left: 0;
 }
 
-.pg-higatech-content20 .content {
+.fnt-about .content {
     width: 100%;
     position: relative;
 }
 
-.pg-higatech-content20 .content p {
+.fnt-about .content p {
     color: #111;
     line-height: 1.4;
     font-size: 15px;
 }
 
-.pg-higatech-content20 .content .left-box {
+.fnt-about .content .left-box {
     overflow: hidden;
 }
 
-.pg-higatech-content20 .content .left-box h2 {
+.fnt-about .content .left-box h2 {
     font-size: 30px;
     color: #111111;
     text-transform: uppercase;
@@ -249,7 +249,7 @@
     margin-top: 0;
 }
 
-.pg-higatech-content20 .content .left-box h2:after {
+.fnt-about .content .left-box h2:after {
     content: "";
     width: 100px;
     height: 4px;
@@ -259,7 +259,7 @@
     top: 25px;
 }
 
-.pg-higatech-content20 .content .left-box a {
+.fnt-about .content .left-box a {
     color: #edb50c;
     font-size: 14px;
     display: block;
@@ -268,13 +268,13 @@
     font-weight: bold;
 }
 
-.pg-higatech-content20 .content .right-box {
+.fnt-about .content .right-box {
     border: 12px solid #fac516;
     padding: 25px 0;
     text-align: center;
 }
 
-.pg-higatech-content20 .content .right-box h2 {
+.fnt-about .content .right-box h2 {
     font-size: 128px;
     color: #111111;
     text-transform: uppercase;
@@ -284,19 +284,19 @@
 }
 
 @media (min-width:480px) and (max-width:769px) {
-    .pg-higatech-content20 .content .right-box h2 {
+    .fnt-about .content .right-box h2 {
         font-size: 90px;
     }
 }
 
 @media (max-width:479px) {
-    .pg-higatech-content20 .content .right-box h2 {
+    .fnt-about .content .right-box h2 {
         font-size: 50px;
     }
 }
 
 /*cta 6 */
-.pg-higatech-cta6 {
+.fnt-cta01 {
     position: relative;
     padding: 50px 0;
     width: 100%;
@@ -306,7 +306,7 @@
     background-size: cover;
 }
 
-.pg-higatech-cta6:before {
+.fnt-cta01:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -316,7 +316,7 @@
     background-color: rgba(1, 1, 1, 0.66);
 }
 
-.pg-higatech-cta6 h3 {
+.fnt-cta01 h3 {
     font-size: 30px;
     color: #fff;
     text-align: center;
@@ -324,11 +324,11 @@
     font-weight: 500;
 }
 
-.pg-higatech-cta6 .button {
+.fnt-cta01 .button {
     text-align: center;
 }
 
-.pg-higatech-cta6 .button a {
+.fnt-cta01 .button a {
     display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
@@ -348,188 +348,20 @@
     text-align: center;
 }
 
-.pg-higatech-cta6 .button a:hover {
+.fnt-cta01 .button a:hover {
     background-color: #fecb16;
     color: #000000;
 }
 
-/* title3 */
-.pg-higatech-title3 {
+/* title1 */
+.fnt-plan-title {
+    display: block;
     background-color: #fff;
-    padding-top: 50px;
-    padding-bottom: 130px;
-    padding-right: 50px;
-}
-
-.pg-higatech-title3 h3 {
-    font-weight: 500;
-    color: #000000;
-    text-align: right;
-    font-size: 30px;
-}
-
-.pg-higatech-title3 span {
-    height: 3px;
-    background-color: #fdc716;
-    width: 11%;
-    margin: 0 auto;
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 14px;
-    float: right;
-}
-
-.pg-higatech-title3 p {
-    width: 50%;
-    clear: both;
-    text-align: right;
-    margin-bottom: 0;
-    float: right;
-}
-
-/* tab3 */
-.pg-higatech-tab3 {
-    /* padding: 45px 0px */
-}
-
-.pg-higatech-tab3 ul.nav.nav-pills.tab3 li {
-    width: 100%;
-    display: block;
-    background-color: #f8f8f8;
-    margin-bottom: 11px;
-    border-radius: 0px;
-}
-
-.pg-higatech-tab3 ul.nav.nav-pills.tab3 li.active a {
-    background-color: #f35730;
-    border-radius: 0px;
-    color: #fff;
-}
-
-.pg-higatech-tab3 ul.nav.nav-pills.tab3 li a {
-    color: #000;
-}
-
-.pg-higatech-tab3 .tab-content {
-    background-color: #fdc716;
-    padding: 23px;
-}
-
-.pg-higatech-tab3 ul.nav.nav-tabs.tab3 li a {
-    width: 100%;
-    display: block;
-    padding: 7px 12px;
-    color: #000;
-    text-decoration: none;
-}
-
-.pg-higatech-tab3 ul.nav.nav-pills.tab3 li a {
-    width: 100%;
-    display: block;
-    padding: 7px 12px;
-}
-
-.pg-higatech-tab3 ul.nav.nav-tabs.tab3 li {
-    width: 100%;
-    display: block;
-    background-color: #f8f8f8;
-    margin-bottom: 11px;
-    border-radius: 0px;
-}
-
-.pg-higatech-tab3 ul.nav.nav-tabs.tab3 li a.nav-link.active {
-    background-color: #fdc716;
-    border-radius: 0px;
-    color: #fff;
-}
-
-.pg-higatech-tab3 ul.nav.nav-tabs.tab3 {
-    border: none;
-}
-
-/* service 4 */
-.pg-higatech-service4 {
-    padding-bottom: 60px;
-}
-
-.pg-higatech-service4 .heading {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.pg-higatech-service4 .heading p {
-    color: #c5c5c5;
-    font-weight: 600;
-    font-size: 13px;
-    text-align: center;
-}
-
-.pg-higatech-service4 .heading .sub-heading {
-    width: 49%;
-    margin: 0 auto;
-    color: #a4a3a3;
-    margin-bottom: 14px;
-    text-align: center;
-}
-
-.pg-higatech-service4 .heading .line {
-    margin: 0 auto;
-    margin-bottom: 21px;
-    height: 3px;
-    width: 6%;
-    background-color: #fab702;
-}
-
-.pg-higatech-service4 .heading h3 {
-    color: #4a4a4a;
-    font-weight: 600;
-    margin-top: 0px;
-    text-align: center;
-}
-
-.pg-higatech-service4 .card {
-    padding: 10px 3px;
-    margin-bottom: 0px;
-    border: none;
-}
-
-.pg-higatech-service4 .card  img {
-    height: 60px;
-    margin: 0 auto;
-}
-
-.pg-higatech-service4 .card .caption {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.pg-higatech-service4 .card .caption h4 {
-    font-size: 17px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.pg-higatech-service4 .card .caption p {
-    color: #9e9e9e;
-    line-height: 24px;
-    text-align: center;
-}
-
-/* partner5 */
-.pg-higatech-partner5 {
-    text-align: center;
-    padding-left: 2px;
-    padding-right: 2px;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
-.pg-higatech-partner5 h4 {
-    text-align: center;
-    font-weight: 500;
-    color: rgb(212, 212, 212);
-}
-
-.pg-higatech-partner5 h3 {
+.fnt-plan-title h3 {
     font-weight: 500;
     color: #000000;
     padding: 4px 0;
@@ -537,7 +369,174 @@
     font-size: 30px;
 }
 
-.pg-higatech-partner5 .line {
+.fnt-plan-title span {
+    height: 3px;
+    background-color: #fdc716;
+    width: 11%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+.fnt-plan-title p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* tab3 */
+.fnt-plan-tab {
+    /* padding: 45px 0px */
+}
+
+.fnt-plan-tab ul.nav.nav-pills.tab3 li {
+    width: 100%;
+    display: block;
+    background-color: #f8f8f8;
+    margin-bottom: 11px;
+    border-radius: 0px;
+}
+
+.fnt-plan-tab ul.nav.nav-pills.tab3 li.active a {
+    background-color: #f35730;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.fnt-plan-tab ul.nav.nav-pills.tab3 li a {
+    color: #000;
+}
+
+.fnt-plan-tab .tab-content {
+    background-color: #fdc716;
+    padding: 23px;
+}
+
+.fnt-plan-tab ul.nav.nav-tabs.tab3 li a {
+    width: 100%;
+    display: block;
+    padding: 7px 12px;
+    color: #000;
+    text-decoration: none;
+}
+
+.fnt-plan-tab ul.nav.nav-pills.tab3 li a {
+    width: 100%;
+    display: block;
+    padding: 7px 12px;
+}
+
+.fnt-plan-tab ul.nav.nav-tabs.tab3 li {
+    width: 100%;
+    display: block;
+    background-color: #f8f8f8;
+    margin-bottom: 11px;
+    border-radius: 0px;
+}
+
+.fnt-plan-tab ul.nav.nav-tabs.tab3 li a.nav-link.active {
+    background-color: #fdc716;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.fnt-plan-tab ul.nav.nav-tabs.tab3 {
+    border: none;
+}
+
+/* service 4 */
+.fnt-service {
+    padding-bottom: 60px;
+}
+
+.fnt-service .heading {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.fnt-service .heading p {
+    color: #c5c5c5;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+
+.fnt-service .heading .sub-heading {
+    width: 49%;
+    margin: 0 auto;
+    color: #a4a3a3;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.fnt-service .heading .line {
+    margin: 0 auto;
+    margin-bottom: 21px;
+    height: 3px;
+    width: 6%;
+    background-color: #fab702;
+}
+
+.fnt-service .heading h3 {
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.fnt-service .card {
+    padding: 10px 3px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.fnt-service .card img {
+    height: 60px;
+    margin: 0 auto;
+}
+
+.fnt-service .card .caption {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fnt-service .card .caption h4 {
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fnt-service .card .caption p {
+    color: #9e9e9e;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* partner5 */
+.fnt-partner {
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 50px;
+}
+
+.fnt-partner h4 {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(212, 212, 212);
+}
+
+.fnt-partner h3 {
+    font-weight: 500;
+    color: #000000;
+    padding: 4px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fnt-partner .line {
     background-color: #ffea00;
     height: 7px;
     border-radius: 12px;
@@ -548,34 +547,34 @@
     margin-bottom: 12px;
 }
 
-.pg-higatech-partner5 img {
+.fnt-partner img {
     width: 100%;
     text-align: center;
     margin: 5px;
 }
 
 /* contact 10 */
-.pg-higatech-contact10 {
+.fnt-contact {
     padding: 50px 0px;
 }
 
-.pg-higatech-contact10 img.img-fluid {
+.fnt-contact img.img-fluid {
     width: 100%;
     height: 297px;
 }
 
-.pg-higatech-contact10 .form-control.contact-input {
+.fnt-contact .form-control.contact-input {
     background-color: #f8f8f8;
     border-radius: 0px;
     border: none;
     padding: 13px 14px;
 }
 
-.pg-higatech-contact10 .form-control.contact-input:focus {
+.fnt-contact .form-control.contact-input:focus {
     box-shadow: 0 0 0 0.1rem rgba(255, 164, 0, 0.64);
 }
 
-.pg-higatech-contact10 button.btn.contact-form {
+.fnt-contact button.btn.contact-form {
     background-color: #ffb600;
     color: #fff;
     border-radius: 0px;
@@ -584,70 +583,70 @@
     font-size: 14px;
 }
 
-.pg-higatech-contact10 .contact-info {
+.fnt-contact .contact-info {
     display: block;
 }
 
-.pg-higatech-contact10 .contact-info h4 {
+.fnt-contact .contact-info h4 {
     color: #313131;
     font-size: 26px;
 }
 
-.pg-higatech-contact10 .contact-info p {
+.fnt-contact .contact-info p {
     color: #aeaeae;
     font-size: 14px;
     padding: 20px;
 }
 
-.pg-higatech-contact10 .address {
+.fnt-contact .address {
     display: block;
 }
 
-.pg-higatech-contact10 .address h4 {
+.fnt-contact .address h4 {
     font-size: 19px;
 }
 
-.pg-higatech-contact10 .icon {
+.fnt-contact .icon {
     color: #ffb600;
     margin-right: 8px;
     font-size: 23px;
 }
 
-.pg-higatech-contact10 .address p {
+.fnt-contact .address p {
     color: #aeaeae;
 }
 
-.pg-higatech-contact10 .phone {
+.fnt-contact .phone {
     display: block;
 }
 
-.pg-higatech-contact10 .phone h4 {
+.fnt-contact .phone h4 {
     font-size: 19px;
 }
 
-.pg-higatech-contact10 .phone ul {
+.fnt-contact .phone ul {
 }
 
-.pg-higatech-contact10 ul {
+.fnt-contact ul {
     list-style: none;
     text-align: left;
 }
 
-.pg-higatech-contact10 ul li {
+.fnt-contact ul li {
     color: #aeaeae;
     font-size: 14px;
     text-align: left;
 }
 
-.pg-higatech-contact10 ul li span {
+.fnt-contact ul li span {
     font-weight: 500;
 }
 
-.pg-higatech-contact10 .share {
+.fnt-contact .share {
     padding: 23px 0px;
 }
 
-.pg-higatech-contact10 .icon-social-twt {
+.fnt-contact .icon-social-twt {
     background-color: #1da1f2;
     color: #fff;
     border: none;
@@ -655,7 +654,7 @@
     padding: 10px;
 }
 
-.pg-higatech-contact10 .icon-social-itg {
+.fnt-contact .icon-social-itg {
     background-color: #79067e;
     color: #fff;
     border: none;
@@ -663,7 +662,7 @@
     padding: 10px;
 }
 
-.pg-higatech-contact10 .icon-social-fcb {
+.fnt-contact .icon-social-fcb {
     background-color: #4267b2;
     color: #fff;
     border: none;
@@ -672,16 +671,16 @@
 }
 
 /* Testimonial 8 */
-.pg-higatech-testimonial8 {
+.fnt-testemonial {
     background-color: #ffc925;
     padding: 45px 0px;
 }
 
-.pg-higatech-testimonial8 .slider {
+.fnt-testemonial .slider {
     display: block;
 }
 
-.pg-higatech-testimonial8 .slider img {
+.fnt-testemonial .slider img {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -689,7 +688,7 @@
     object-fit: cover;
 }
 
-.pg-higatech-testimonial8 .carousel-indicators li {
+.fnt-testemonial .carousel-indicators li {
     border-radius: 50%;
     padding: 0px;
     width: 12px;
@@ -697,7 +696,7 @@
     background-color: #111;
 }
 
-.pg-higatech-testimonial8 .carousel-indicators li.active {
+.fnt-testemonial .carousel-indicators li.active {
     border-radius: 50%;
     padding: 0px;
     width: 12px;
@@ -705,25 +704,25 @@
     background-color: #ffc925;
 }
 
-.pg-higatech-testimonial8 .carousel-indicators {
+.fnt-testemonial .carousel-indicators {
     bottom: 0;
     margin: 0px;
 }
 
-.pg-higatech-testimonial8 .slider .font-italic.text-center {
+.fnt-testemonial .slider .font-italic.text-center {
     width: 93%;
     margin: 0 auto;
     color: #898989;
     padding: 23px 0px;
 }
 
-.pg-higatech-testimonial8 .slider h3 {
+.fnt-testemonial .slider h3 {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
 }
 
-.pg-higatech-testimonial8 .carousel-control-prev {
+.fnt-testemonial .carousel-control-prev {
     font-size: 38px;
     color: #3f3f3f;
     bottom: 14%;
@@ -731,7 +730,7 @@
     left: 34%;
 }
 
-.pg-higatech-testimonial8 .carousel-control-next {
+.fnt-testemonial .carousel-control-next {
     font-size: 38px;
     color: #fff;
     bottom: 14%;
@@ -739,7 +738,7 @@
     right: 34%;
 }
 
-.pg-higatech-testimonial8 .slider .kudos {
+.fnt-testemonial .slider .kudos {
     width: 53%;
     font-size: 19px;
     margin-top: 20px;
@@ -751,14 +750,14 @@
 }
 
 @media screen and (max-width: 767px) {
-    .pg-higatech-testimonial8 .slider .kudos {
+    .fnt-testemonial .slider .kudos {
         width: 100%;
         font-size: 19px;
         margin: 0 auto 50px;
         font-family: initial;
     }
 
-    .pg-higatech-testimonial8 .carousel-control-prev {
+    .fnt-testemonial .carousel-control-prev {
         font-size: 38px;
         color: #3f3f3f;
         bottom: 18%;
@@ -766,7 +765,7 @@
         left: 0%;
     }
 
-    .pg-higatech-testimonial8 .carousel-control-next {
+    .fnt-testemonial .carousel-control-next {
         font-size: 38px;
         color: #fff;
         bottom: 18%;
@@ -777,12 +776,12 @@
 
 /* footer7*/
 @media (min-width: 1200px) {
-    .pg-higatech-footer7 .container {
+    .fnt-footer .container {
         width: 1200px;
     }
 }
 
-.pg-higatech-footer7 {
+.fnt-footer {
     width: 100%;
     position: relative;
     padding: 0px 0px 0px;
@@ -792,14 +791,14 @@
     background-color: #000;
 }
 
-.pg-higatech-footer7 .row {
+.fnt-footer .row {
     float: left;
     width: 100%;
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 0;
 }
 
-.pg-higatech-footer7 .row p {
+.fnt-footer .row p {
     color: #dadada;
     line-height: 22px;
     font-weight: 400;
@@ -807,7 +806,7 @@
     margin-bottom: 20px;
 }
 
-.pg-higatech-footer7 h1 {
+.fnt-footer h1 {
     font-weight: 700;
     color: #fff;
     margin: 15px 0 30px 0;
@@ -819,12 +818,12 @@
     display: none;
 }
 
-.pg-higatech-footer7 .row h1 span {
+.fnt-footer .row h1 span {
     color: #fdc716;
     float: left;
 }
 
-.pg-higatech-footer7 .row h2 {
+.fnt-footer .row h2 {
     font-weight: 700;
     color: #fff;
     margin: 15px 0 30px 0;
@@ -837,12 +836,12 @@
     line-height: 18px;
 }
 
-.pg-higatech-footer7 .row .social-icons {
+.fnt-footer .row .social-icons {
     margin: 40px 0 0;
     float: left;
 }
 
-.pg-higatech-footer7 .row .social-icons a {
+.fnt-footer .row .social-icons a {
     float: left;
     height: 30px;
     width: 30px;
@@ -862,15 +861,15 @@
     /* background: #263841 */
 }
 
-.pg-higatech-footer7 .row .newsletter {
+.fnt-footer .row .newsletter {
     position: relative;
     width: 100%;
     padding: 10px 0 30px;
     margin: 0px 0 30px;
 }
 
-.pg-higatech-footer7 .newsletter .input-group-btn:last-child > .btn,
-.pg-higatech-footer7 .newsletter .input-group-btn:last-child > .btn-group {
+.fnt-footer .newsletter .input-group-btn:last-child>.btn,
+.fnt-footer .newsletter .input-group-btn:last-child>.btn-group {
     z-index: 2;
     margin-left: 0px;
     width: 100%;
@@ -883,7 +882,7 @@
     font-weight: 700;
 }
 
-.pg-higatech-footer7 .newsletter .input-group .form-control {
+.fnt-footer .newsletter .input-group .form-control {
     position: relative;
     z-index: 2;
     float: left;
@@ -895,48 +894,48 @@
     border: 0;
 }
 
-.pg-higatech-footer7 .newsletter i {
+.fnt-footer .newsletter i {
     font-size: 18px;
 }
 
-.pg-higatech-footer7 .row .newsletter ::-webkit-input-placeholder {
+.fnt-footer .row .newsletter ::-webkit-input-placeholder {
     font-style: italic;
 }
 
-.pg-higatech-footer7 .row .address {
+.fnt-footer .row .address {
     float: left;
     position: relative;
 }
 
-.pg-higatech-footer7 .row .address i {
+.fnt-footer .row .address i {
     float: left;
     padding-right: 15px;
     padding-top: 3px;
     color: #fdc716;
 }
 
-.pg-higatech-footer7 .row .address p {
+.fnt-footer .row .address p {
     float: left;
     width: 100%;
     margin-bottom: 23px;
 }
 
-.pg-higatech-footer7 .row .address span {
+.fnt-footer .row .address span {
     overflow: hidden;
 }
 
-.pg-higatech-footer7 .row .address a {
+.fnt-footer .row .address a {
     color: #fff;
     text-decoration: none;
 }
 
-.pg-higatech-footer7 .copyright {
+.fnt-footer .copyright {
     width: 100%;
     position: relative;
-    float: left;
     padding: 25px 0 10px;
     margin: 30px 0 0 0;
     background-color: #000;
+    float: left;
 }
 
 .sticky-top {
@@ -1043,4 +1042,22 @@
 
 .section {
     padding-bottom: 80px;
+}
+
+.back-to-top {
+    padding: 10px 15px;
+
+    /* background-color: #ffc925 */
+    color: #fac516;
+    font-size: 30px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    line-height: 35px;
+    transition: top 0.3s;
+    opacity: 0.7;
+}
+
+.back-to-top:hover {
+    color: #010101;
 }
