@@ -514,6 +514,39 @@
     text-align: center;
 }
 
+/* title1 */
+.fnt-partner-title {
+    display: block;
+    background-color: #fff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.fnt-partner-title h3 {
+    font-weight: 500;
+    color: #000000;
+    padding: 4px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fnt-partner-title span {
+    height: 3px;
+    background-color: #fdc716;
+    width: 11%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+.fnt-partner-title p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* partner5 */
 .fnt-partner {
     text-align: center;
@@ -1060,4 +1093,13 @@
 
 .back-to-top:hover {
     color: #010101;
+}
+
+.fnt-about button.btn.btn-light {
+    background-color: #fac516;
+    font-weight: 600;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
