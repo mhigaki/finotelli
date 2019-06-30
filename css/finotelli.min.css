@@ -912,7 +912,7 @@
 
 .fnt-footer .row .address {
     float: left;
-    position: relative;
+    padding-left: 20px;
 }
 
 .fnt-footer .row .address i {
