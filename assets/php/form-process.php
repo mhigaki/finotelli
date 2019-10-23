@@ -32,7 +32,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "milton.higaki@gmail.com";
+$EmailTo = "contato@finotelliexpress.com.br";
+
 $Subject = "Website - contato";
 
 // prepare email body text
