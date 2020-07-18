@@ -3,39 +3,39 @@
  <head>
   <!-- Anti-flicker snippet -->
   <style>.async-hide {
-   opacity: 0 !important;
+      opacity: 0 !important;
 }</style>
   <script>
-  (function(a, s, y, n, c, h, i, d, e) {
-   s.className += ' ' + y;
-   h.start = 1 * new Date;
-   h.end = i = function() {
-    s.className = s.className.replace(RegExp(' ?' + y), '')
-   };
-   (a[n] = a[n] || []).hide = h;
-   setTimeout(function() {
-    i();
-    h.end = null
-   }, c);
-   h.timeout = c;
-  })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
-   'OPT-5LRJ8SL': true
-  });
- </script>
+    (function(a, s, y, n, c, h, i, d, e) {
+      s.className += ' ' + y;
+      h.start = 1 * new Date;
+      h.end = i = function() {
+        s.className = s.className.replace(RegExp(' ?' + y), '')
+      };
+      (a[n] = a[n] || []).hide = h;
+      setTimeout(function() {
+        i();
+        h.end = null
+      }, c);
+      h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
+      'OPT-5LRJ8SL': true
+    });
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85894205-1"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-   dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-85894205-1', {
-   'optimize_id': 'OPT-5LRJ8SL'
-  });
- </script>
+    gtag('config', 'UA-85894205-1', {
+      'optimize_id': 'OPT-5LRJ8SL'
+    });
+  </script>
   <title>Finotelli Express :: 404 Not Found</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,13 +52,13 @@
   <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"/>
   <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png"/>
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png"/>
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="css/animate.css" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/finotelli.css" rel="stylesheet" type="text/css">
   <style>html {
-   scroll-behavior: smooth;
+      scroll-behavior: smooth;
 }</style>
  </head>
  <body>
@@ -131,26 +131,125 @@
   </header>
   <main>
    <section id="404" class="section error-bg">
-    <div class="container">
-     <div class="row">
-      <div class="col-md-8 offset-sm-2">
-       <div class="error-page" style="display: block; text-align: center;">
-        <h1>404</h1>
-        <h2>Oops, Página não encontrada!</h2>
-        <p>O Link pode estar corrompido</p>
-        <div id="search" style="display: block;">
-         <p>Inforne o que você procura:</p>
-         <form action="#">
-          <input class="form-control search" type="search" placeholder="Procurar">
-          <button class="search-btn" type="submit">
-           <i class="fa fa-search"></i>
-          </button>
-         </form>
+    <div class="container theme-showcase" role="main" style="margin:auto;"> 
+     <div class="page-header" style="margin-top:20px; margin-bottom: 0;">
+      <div class="mr-title">
+       <h3>Solicite sua cotação</h3>
+      </div>
+      <p style="margin-bottom: 5px;"></p>
+      <p>Nossa equipe está preparada para atendê-lo.<br>
+Basta Preencher seus dados abaixo que em breve entraremos em contato:<br>
+Aceitamos cartões de crédito e debito.<br>
+*TAXAS EXTRAS DE RETORNOS, ESPERAS (cada fração de 15 min.) E CANCELAMENTOS, consulte.</p>
+      <p></p>
+     </div>
+     <form name="formulario" class="form-horizontal" method="POST" action="cadastro/cadastro.php" enctype="multipart/form-data">
+      <div class="row">
+       <div class="col-md-6">
+        <h2>Origem</h2>
+        <p style="margin-bottom:10px;">Informe o endereço do remetente.</p>
+        <div class="col-md-7 form-group">
+         <div class="col-md-8 form-group">
+          <input type="text" name="endereco" class="form-control" id="inputEmail3" placeholder="Endereço" required="">
+         </div>
+         <div class="col-md-4 form-group">
+          <input type="text" name="bairro" class="form-control" id="inputEmail3" placeholder="Bairro" required="">
+         </div>
+         <div class="form-group col-md-5">
+          <input type="text" name="cidade" class="form-control" id="inputEmail3" placeholder="Cidade" required="">
+         </div>
         </div>
-        <a href="index.html" class="btn2 search-btn btn-effect btn"> HOME <i class="icon-home"></i></a>
+        <div id="campo1" class="form-group col-md-4">
+         <div class="form-group col-sm-12">
+          <input type="text" name="numero" class="form-control" id="inputEmail3" placeholder="Número" required="">
+         </div>
+         <div class="form-group  col-sm-12">
+          <input type="text" name="complemento" class="form-control" id="inputEmail3" placeholder="Complemento" required="">
+         </div>
+        </div>
+        <div class="form-group">
+         <div class="col-sm-10">
+          <input type="text" name="nome" class="form-control" id="inputEmail3" placeholder="Nome Completo" required="">
+         </div>
+        </div>
+        <div class="form-group"> 
+         <div class="col-sm-10">
+          <input type="text" name="telefone" class="form-control" id="inputEmail3" onkeypress="formatar('## #####-####', this)" maxlength="13" placeholder="Telefone (51) 99999-9999" required="">
+         </div>
+        </div>         
+        <div class="form-group">
+         <div class="col-sm-10">
+          <input type="email" name="email" class="form-control" id="inputEmail3" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail" required="">
+         </div>
+        </div>         
+        <div class="form-group">
+         <div class="col-sm-10">
+          <input type="text" name="empresa" class="form-control" id="inputEmail3" placeholder="Empresa" required="">
+         </div>
+        </div>         
+        <div class="form-group">
+         <div class="col-sm-10">
+          <textarea name="mensagem" class="form-control" id="inputEmail3" placeholder="O que deve ser feito?"></textarea>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-6">
+        <h2>Destino</h2>
+        <p style="margin-bottom:10px;">Informe o endereço para recebimento.</p>
+        <div class="form-group col-md-8">
+         <div class="form-group col-md-12">
+          <input type="text" name="endereco2" class="form-control" id="inputEmail3" placeholder="Endereço" required="">
+         </div>
+         <div class="form-group col-md-8">
+          <input type="text" name="bairro2" class="form-control" id="inputEmail3" placeholder="Bairro" required="">
+         </div>
+         <div class="form-group col-md-5">
+          <input type="text" name="cidade2" class="form-control" id="inputEmail3" placeholder="Cidade" required="">
+         </div>
+        </div>
+        <div class="form-group col-md-4" id="campo1">
+         <div class="form-group col-sm-12">
+          <input type="text" name="numero2" class="form-control" id="inputEmail3" placeholder="Número" required="">
+         </div>
+         <div class="form-group  col-sm-12">
+          <input type="text" name="complemento2" class="form-control" id="inputEmail3" placeholder="Complemento" required="">
+         </div>
+        </div>
+        <div class="form-group">
+         <div class="col-sm-10">
+          <input type="text" name="nome2" class="form-control" id="inputEmail3" placeholder="Nome Completo" required="">
+         </div>
+        </div>
+        <div class="form-group"> 
+         <div class="col-sm-10">
+          <input type="text" name="telefone2" class="form-control" id="inputEmail3" onkeypress="formatar('## #####-####', this)" maxlength="13" placeholder="Telefone (51) 99999-9999" required="">
+         </div>
+        </div>         
+        <div class="form-group">
+         <div class="col-sm-10">
+          <input type="email" name="email2" class="form-control" id="inputEmail3" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail" required="">
+         </div>
+        </div>         
+        <div class="form-group">
+         <div class="col-sm-10">
+          <input type="text" name="empresa2" class="form-control" id="inputEmail3" placeholder="Empresa" required="">
+         </div>
+        </div>
+        <div class="form-group">
+         <div class="col-sm-10">
+          <textarea name="mensagem2" class="form-control" id="inputEmail3" placeholder="O que deve ser feito?"></textarea>
+         </div>
+        </div>
        </div>
       </div>
-     </div>
+      <div class="row"></div>
+      <input type="hidden" name="id">
+      <div class="col-sm-12">
+       <div class="col-sm-11">
+        <input type="submit" id="btnEnviar" class="mr-send-btn" value="Solicitar cotação" onclick="this.value='Clique para enviar...'">
+       </div>
+      </div>
+     </form>
     </div>
    </section>
   </main>
@@ -210,28 +309,28 @@
   <!-- Go To Top Link -->
   <a href="#" class="back-to-top" id="myBtn"> <i class="fa fa-mouse-pointer" style="text-shadow: 7px 7px 10px #010101; transition: color 0.5s;"></i> </a>
   <script>
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {
-   scrollFunction()
-  };
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
 
-  function scrollFunction() {
-   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-   } else {
-    document.getElementById("myBtn").style.display = "none";
-   }
-  }
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
 
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-   document.body.scrollTop = 0;
-   document.documentElement.scrollTop = 0;
-  }
- </script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/script.min.js"></script>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
   <script type="text/javascript" src="js/form-validator.min.js"></script>
   <script type="text/javascript" src="js/contact-form-script.js"></script>
  </body>
