@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} ^finotelliexpress.com.br[nc]
 RewriteRule ^(.*)$ http://www.finotelliexpress.com.br/$1 [r=301,nc]
 
 //Custom 404 errors
-ErrorDocument 404 404.html
+ErrorDocument 404 http://www.finotelliexpress.com.br/404.html
 
 //Block bad bots
 RewriteEngine On
@@ -95,4 +95,3 @@ deny from all
 
 //Prevent directory listings
 Options All -Indexes
- 
