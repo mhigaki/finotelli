@@ -1060,3 +1060,42 @@
   border: none;
   margin-bottom: 25px;
   margin-top: 25px; }
+
+.box-cookies.hide {
+  display: none !important; }
+
+.box-cookies {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  z-index: 998;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.box-cookies .msg-cookies,
+.box-cookies .btn-cookies {
+  text-align: center;
+  padding: 25px;
+  color: #fff;
+  font-size: 18px; }
+
+.box-cookies .btn-cookies {
+  background: #1e88e5;
+  cursor: pointer;
+  -ms-flex-item-align: normal;
+      align-self: normal; }
+
+@media screen and (max-width: 600px) {
+  .box-cookies {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
