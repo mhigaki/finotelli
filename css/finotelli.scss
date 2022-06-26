@@ -960,7 +960,8 @@
     float: left;
     height: auto;
     color: #dadada;
-    background-color: #000000;
+    background: linear-gradient(90deg, #000 45%, #000 45%);
+    background-color: rgba(0, 0, 0, 0.36);
 }
 
 .fnt-footer .row {
