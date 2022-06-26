@@ -636,7 +636,7 @@
 
 .fnt-contact button.btn.contact-form {
   background-color: #ffb600;
-  color: #fff;
+  color: #000;
   border-radius: 0px;
   padding: 10px 20px;
   font-weight: 600;
@@ -693,11 +693,18 @@
   background-color: #1da1f2;
   color: #fff;
   border: none;
-  margin-top: 12px;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 12px; }
 
 .fnt-contact .icon-social-itg {
   background-color: #79067e;
+  color: #fff;
+  border: none;
+  margin-top: 12px;
+  padding: 10px; }
+
+.fnt-contact .icon-social-wtp {
+  background-color: green;
   color: #fff;
   border: none;
   margin-top: 12px;

@@ -742,7 +742,7 @@
 
 .fnt-contact button.btn.contact-form {
     background-color: #ffb600;
-    color: #fff;
+    color: #000;
     border-radius: 0px;
     padding: 10px 20px;
     font-weight: 600;
@@ -813,12 +813,20 @@
     background-color: #1da1f2;
     color: #fff;
     border: none;
-    margin-top: 12px;
     padding: 10px;
+    margin-top: 12px;
 }
 
 .fnt-contact .icon-social-itg {
     background-color: #79067e;
+    color: #fff;
+    border: none;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+.fnt-contact .icon-social-wtp {
+    background-color: green;
     color: #fff;
     border: none;
     margin-top: 12px;
@@ -1034,7 +1042,7 @@
 }
 
 .fnt-footer .newsletter .input-group-btn:last-child > .btn,
-.fnt-footer .newsletter .input-group-btn:last-child > .btn-group {
+.fnt-footer .newsletter .input-group-btn:last-child > .btn-group {
     z-index: 2;
     margin-left: 0px;
     width: 100%;
@@ -1260,7 +1268,7 @@
 }
 
 .box-cookies .msg-cookies,
-.box-cookies .btn-cookies {
+.box-cookies .btn-cookies {
     text-align: center;
     padding: 25px;
     color: #fff;
